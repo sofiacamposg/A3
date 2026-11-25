@@ -1,0 +1,29 @@
+{
+  "filas": 8,
+  "columnas": 8,
+  "semilla": 42,
+  "trayectoria": "zigzag",
+  "tiempo_maximo": 500,
+  "inicio": [
+    1,
+    1
+  ],
+  "episodios": 84,
+  "fin": "limpio",
+  "piso": 58,
+  "obstaculos": 6,
+  "sucias_iniciales": 23,
+  "sucias_restantes": 0,
+  "porcentaje_limpio": 100.0,
+  "movimientos_equipo": 61,
+  "agentes": [
+    {
+      "agente": 1,
+      "movimientos": 61,
+      "celdas_limpiadas": 23,
+      "bateria_final": 16,
+      "ultimo_episodio_activo": 84,
+      "aporte_porcentaje_piso": 39.6551724137931
+    }
+  ]
+}

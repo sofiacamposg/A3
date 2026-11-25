@@ -1,0 +1,35 @@
+﻿<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Limpieza multiagente</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f2f5f3; color: #152e2b; font: 16px system-ui, sans-serif; }
+    main { max-width: 990px; margin: auto; padding: 28px 20px; }
+    h1 { margin: 0 0 10px; font-size: clamp(24px, 4vw, 34px); }
+    #info { margin: 0 0 14px; line-height: 1.5; }
+    canvas { display: block; width: 100%; height: min(64vh, 640px); background: #122c29; border-radius: 12px; }
+    .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 16px 0; }
+    button { background: #195b4e; color: white; border: 0; border-radius: 6px; padding: 8px 14px; cursor: pointer; }
+    input { flex: 1; min-width: 130px; accent-color: #195b4e; }
+    #agentes { line-height: 1.65; }
+  </style>
+</head>
+<body>
+<main>
+  <h1>Limpieza multiagente</h1>
+  <p id="info">Cargando simulación…</p>
+  <canvas id="tablero" aria-label="Tablero de la simulación"></canvas>
+  <div class="controls">
+    <button id="reproducir" disabled>Pausar</button>
+    <button id="reiniciar" disabled>Reiniciar</button>
+    <input id="episodio" type="range" min="0" value="0" aria-label="Episodio" disabled>
+    <label>Velocidad <select id="velocidad"><option>2</option><option selected>8</option><option>16</option><option>32</option></select> ep/s</label>
+  </div>
+  <div id="agentes"></div>
+</main>
+<script src="/static/app.js"></script>
+</body>
+</html>

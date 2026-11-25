@@ -1,0 +1,53 @@
+{
+  "filas": 8,
+  "columnas": 8,
+  "semilla": 42,
+  "trayectoria": "zigzag",
+  "tiempo_maximo": 500,
+  "inicio": [
+    0,
+    0
+  ],
+  "episodios": 43,
+  "fin": "limpio",
+  "piso": 58,
+  "obstaculos": 6,
+  "sucias_iniciales": 23,
+  "sucias_restantes": 0,
+  "porcentaje_limpio": 100.0,
+  "movimientos_equipo": 147,
+  "agentes": [
+    {
+      "agente": 1,
+      "movimientos": 37,
+      "celdas_limpiadas": 5,
+      "bateria_final": 58,
+      "ultimo_episodio_activo": 43,
+      "aporte_porcentaje_piso": 8.620689655172415
+    },
+    {
+      "agente": 2,
+      "movimientos": 37,
+      "celdas_limpiadas": 6,
+      "bateria_final": 57,
+      "ultimo_episodio_activo": 43,
+      "aporte_porcentaje_piso": 10.344827586206897
+    },
+    {
+      "agente": 3,
+      "movimientos": 36,
+      "celdas_limpiadas": 6,
+      "bateria_final": 58,
+      "ultimo_episodio_activo": 42,
+      "aporte_porcentaje_piso": 10.344827586206897
+    },
+    {
+      "agente": 4,
+      "movimientos": 37,
+      "celdas_limpiadas": 6,
+      "bateria_final": 57,
+      "ultimo_episodio_activo": 43,
+      "aporte_porcentaje_piso": 10.344827586206897
+    }
+  ]
+}
